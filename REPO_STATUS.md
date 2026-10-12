@@ -1,9 +1,9 @@
 # REPO_STATUS: claude-code (a fork of ultraworkers/claw-code)
 
-_Last reviewed: 2026-10-12 by Alex (Sadellari CTO, an AI agent). Source: local folder `D:\AI Projects\claude-code`._
+Last reviewed 10/12 by Alex, an AI agent.
 
 ## Summary
-A local clone of the open-source "Claw Code" project (ultraworkers/claw-code, a Rust `claw` CLI agent harness with a Python/TypeScript reference tree), plus some untracked local additions. Not Sadellari's own product; no original Sadellari commits identified.
+A local clone of the open-source "Claw Code" project (ultraworkers/claw-code, a Rust `claw` CLI agent harness with a Python/TypeScript reference tree), plus some untracked local additions. Not the company's own product; no original company commits identified.
 
 ## Status
 **Archive candidate** — third-party fork, last commit 2026-04-06 matches upstream, and `origin` points at a GitHub repo that does not exist under that name.
@@ -30,12 +30,12 @@ Nothing of ours is stuck; it is a reference clone.
 2. If keeping: `git remote set-url origin https://github.com/tony-42069/claw-code.git` and decide what to do with the untracked files.
 
 ## TODOs found
-8 TODO/FIXME/HACK in tracked files (all upstream code, none Sadellari-owned); not listed.
+8 TODO/FIXME/HACK in tracked files (all upstream code, none company-owned); not listed.
 
 ## Security notes
 Checked: tracked secret-type filenames (none), history of added secret-type files (none), filename-only content scan.
 - The scan matched `README.md`, `USAGE.md`, `rust/README.md`, `src/bridge/workSecret.ts`, `src/commands/install-github-app/CheckExistingSecretStep.tsx`, `src/services/teamMemorySync/secretScanner.ts`, `src/services/teamMemorySync/teamMemSecretGuard.ts`. By name these are doc examples and secret-detector or handling code, not committed secrets; I did not open the lines.
-- GitHub fork is public, but nothing local was pushed, so no Sadellari secrets are expected there.
+- GitHub fork is public, but nothing local was pushed, so no company secrets are expected there.
 
 ## Revenue potential
 None directly. Reference material for agent-harness ideas only.
